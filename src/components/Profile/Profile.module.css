@@ -1,0 +1,64 @@
+.profile {
+    width: 250px;
+    height: 330px;
+    box-shadow: 0 1px 3px rgba(191, 205, 222, 0.75);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .description {
+    text-align: center;
+    padding: 30px 0;
+  }
+  .userAvatar {
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 17px;
+  }
+  .userName {
+    color: #122236;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 4px;
+  }
+  .userTag {
+    color: #768696;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+  }
+  .userLocation {
+    color: #768696;
+    font-family: sans-serif;
+  }
+  .stats {
+    height: 74px;
+    background-color: #f3f6f9;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .stats li {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e4e9f0;
+  }
+  .label {
+    color: #768696;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .quantity {
+    color: #1f3349;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+  }
